@@ -16,7 +16,6 @@ public class ATM {
 
     public static void main(String[] args) {
         createAccounts();
-
         while (true) {
             Scanner input = new Scanner(System.in);
             System.out.print("Enter your account ID: ");
